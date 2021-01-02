@@ -52,6 +52,22 @@
           "value": 1.5
         }
       ]
+    },
+    {
+      "id": 4,
+      "name": "Bistecón",
+      "description": "Bistecón a lá cuisê, feitê no fornê supra tendê.",
+      "price": "99.99",
+      "category": 3,
+      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png",
+      "thumbnail_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/camarao.png",
+      "extras": [
+        {
+          "id": 4,
+          "name": "Beiquên",
+          "value": 1.5
+        }
+      ]
     }
   ],
   "categories": [
@@ -88,17 +104,49 @@
           "quantity": 1
         }
       ]
+    },
+    {
+      "product_id": 4,
+      "extras": [
+        {
+          "id": 4,
+          "quantity": 4
+        }
+      ],
+      "id": 2
+    },
+    {
+      "product_id": 4,
+      "quantity": 2,
+      "price": "99.99",
+      "extras": [
+        {
+          "id": 4,
+          "quantity": 2,
+          "value": 1.5
+        }
+      ],
+      "id": 3
     }
   ],
   "favorites": [
     {
-      "id": 2,
-      "name": "Veggie",
-      "description": "Macarrão com pimentão, ervilha e ervas finas colhidas no himalaia.",
-      "price": "21.90",
-      "category": 2,
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png",
-      "thumbnail_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/veggie.png"
+      "id": 4,
+      "name": "Bistecón",
+      "description": "Bistecón a lá cuisê, feitê no fornê supra tendê.",
+      "price": "99.99",
+      "category": 3,
+      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png",
+      "thumbnail_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/camarao.png",
+      "extras": [
+        {
+          "id": 4,
+          "name": "Beiquên",
+          "value": 1.5,
+          "quantity": 0
+        }
+      ],
+      "formattedPrice": "R$99,99"
     }
   ]
 }
